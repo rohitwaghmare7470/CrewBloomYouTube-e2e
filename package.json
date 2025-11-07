@@ -1,0 +1,10 @@
+{
+  "name": "crewbloomyoutubeassesment",
+  "version": "1.0.0",
+  "scripts": {
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0"
+  }
+}
