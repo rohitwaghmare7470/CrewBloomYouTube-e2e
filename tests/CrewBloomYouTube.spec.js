@@ -25,9 +25,17 @@ test('@YouTube end-to-end video flow', async ({ page }) => {
   await crewbloomyoutube.searchButton.click();
 await page.waitForTimeout(3000);
 
+ 
+
+
   // Step 3: Click on the first video link
   await crewbloomyoutube.clickFirstVideo();
- await test.soft.expect(count, 'Expected at least one video result').toBeGreaterThan(0);
+  const videoCount = await crewbloomyoutube.videoList.count();
+  expect.soft(videoCount, 'Expected at least one video result').toBeGreaterThan(0);
+  //video count validation failed
+  
+  
+ //await test.soft.expect(count, 'Expected at least one video result').toBeGreaterThan(0);
 
 
  
