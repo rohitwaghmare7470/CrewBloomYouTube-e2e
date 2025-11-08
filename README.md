@@ -2,7 +2,7 @@
 
 Automates YouTube search and video playback using Playwright and JavaScript.
 
-## Features
+##  Features
 
 - Search and verify results
 - Play and pause video
@@ -10,7 +10,7 @@ Automates YouTube search and video playback using Playwright and JavaScript.
 - Screenshot capture
 - Title validation
 
-## Setup
+# Setup
 
 
 

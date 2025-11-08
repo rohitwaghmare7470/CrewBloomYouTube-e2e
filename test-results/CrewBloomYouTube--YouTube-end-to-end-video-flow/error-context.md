@@ -1,0 +1,579 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [ref=e33]: QA automation
+            - button "Clear search query" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - img
+          - button "Search" [ref=e42] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+        - generic [ref=e47]:
+          - button "Search with your voice" [ref=e49] [cursor=pointer]:
+            - generic [ref=e53]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e58]:
+        - button "Settings" [ref=e63] [cursor=pointer]:
+          - generic [ref=e66]:
+            - img
+        - link "Sign in" [ref=e69] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253DuckW7kDEFso%2526pp%253DygUNUUEgYXV0b21hdGlvbtIHCQkDCgGHKiGM7w%25253D%25253D&hl=en&ec=65620
+          - generic [ref=e73]:
+            - img
+          - generic [ref=e74]: Sign in
+  - generic [ref=e78]:
+    - main [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - complementary [ref=e89]:
+            - generic "YouTube Video Player" [ref=e92]:
+              - button "Show cards" [ref=e95] [cursor=pointer]:
+                - generic [ref=e97]:
+                  - img
+              - generic [ref=e100]:
+                - slider "Seek slider" [ref=e102] [cursor=pointer]
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - button "Play (k)" [ref=e115] [cursor=pointer]:
+                      - img
+                    - generic [ref=e116]:
+                      - button "Mute (m)" [ref=e118] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - generic [ref=e122] [cursor=pointer]: 0:05 / 8:33
+                  - generic [ref=e123]:
+                    - generic [ref=e124]:
+                      - button "Autoplay is on" [ref=e125] [cursor=pointer]
+                      - button "Subtitles/closed captions unavailable" [ref=e128] [cursor=pointer]:
+                        - generic [ref=e129]:
+                          - img
+                      - button "Settings" [ref=e130] [cursor=pointer]:
+                        - img
+                    - generic [ref=e131]:
+                      - button "Theater mode (t)" [ref=e132] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e133] [cursor=pointer]:
+                        - img
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - heading "Are QA and SDET Jobs SAFE from AI Automation in 2025?" [level=1] [ref=e138]
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - link [ref=e142] [cursor=pointer]:
+                      - /url: /@TheTestingAcademy
+                    - generic [ref=e144]:
+                      - generic [ref=e145]:
+                        - generic "The Testing Academy" [ref=e148]:
+                          - link "The Testing Academy" [ref=e149] [cursor=pointer]:
+                            - /url: /@TheTestingAcademy
+                        - img "Verified" [ref=e151]:
+                          - generic [ref=e154]:
+                            - img
+                          - paragraph
+                      - generic "193 thousand subscribers" [ref=e155]: 193K subscribers
+                  - generic [ref=e159]:
+                    - button "Subscribe to The Testing Academy." [ref=e161] [cursor=pointer]:
+                      - generic [ref=e162]: Subscribe
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - generic [ref=e174]:
+                      - button "like this video along with 243 other people" [ref=e178] [cursor=pointer]:
+                        - generic [ref=e182]:
+                          - img
+                        - generic [ref=e183]: "243"
+                      - button "Dislike this video" [ref=e190] [cursor=pointer]:
+                        - generic [ref=e194]:
+                          - img
+                    - button "Share" [ref=e200] [cursor=pointer]:
+                      - generic [ref=e204]:
+                        - img
+                      - generic [ref=e205]: Share
+                  - generic [ref=e211]:
+                    - button "Download" [ref=e213] [cursor=pointer]:
+                      - generic [ref=e217]:
+                        - img
+                      - generic [ref=e218]: Download
+                    - tooltip "tooltip"
+                  - button "More actions" [ref=e223] [cursor=pointer]:
+                    - generic [ref=e227]:
+                      - img
+              - generic [ref=e233] [cursor=pointer]:
+                - generic [ref=e234]:
+                  - generic [ref=e236]: 9.6K views 1 month ago
+                  - tooltip "tooltip"
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e241]:
+                      - text: New Batch for Automation Testing -
+                      - link "https://sdet.live/become" [ref=e243]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazJqc1kzX2ROb3diVW5WSFZRMDNpcGwwRjViQXxBQ3Jtc0tublVsbkY2T0U3R1VWVG5zMFA2am5YVlFPV2ZhN3RVNC1pZ0dITjVXY25DMlA5Z2NMMm5vTEhlOVNnVDBCaUluVGViYm1GbVIwUVJlb09zdWhLUElHRGdfMVAzMG9jYl9QUGh0eUsySW1jdWFCV3Ztcw&q=https%3A%2F%2Fsdet.live%2Fbecome&v=uckW7kDEFso
+                      - text: 10% OFF - Coupon Code - PROMODE
+                    - generic: …
+                  - button "...more" [ref=e244]
+            - text: •
+        - generic [ref=e319]:
+          - generic [ref=e328]:
+            - generic "Sponsored - AI for Fullstack Developer aifortechies.in" [ref=e330]:
+              - img "AI For Techies" [ref=e337]
+              - generic [ref=e338]:
+                - generic [ref=e339]: AI for Fullstack Developer
+                - generic [ref=e340]:
+                  - generic [ref=e342]:
+                    - generic [ref=e343]: Sponsored
+                    - text: ·
+                  - generic [ref=e345]: aifortechies.in
+            - link "Visit site" [ref=e347] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C44RTL5QPaabzE5PGsvsPisDDOKCig-iCAaWw9qmsE2QQASAAYOXq5oO8DoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHZgP_UKakCzEsevl44SD6oAwSqBJIDT9BUHO05OeoGh2IK92S5hGAi2TwbRVMezx5r-yLeg37zLCa-D9NjZ7gLzDY8ENdvWeXAD-uxzgEtfXWHx3_G6ADzQVbjnC1Rmm2Ix8z4e6Uy9SetJlzswR5MSJhArZ3578DyOdq-eVMSie-ofAyHuinVZOCap-0M-n6vE_RDs0o-DRjgTX2vlgwx8bPJcPefXdRRl_i9DlfZUUaXYDCEakojeq4CH3IZMbILwhkzQoQrASbaAx9kTSQOvlHJdqRK2omZztIPNulcZFF_2Cj0C5KI6Sk5w1DWJ72la5G4nqbRJj9L5W47iaIieJscdcY_JAt8Op0kFdKAuiLiwNEHLlGw0QJfnbJlx0pVY1iaraAGyqwRdu189Kko2AaGUFWZz21sHJUlP8MBO4OIdPNooOA7HDeFyfCVZKyXsvjd9NTjQcEn2JsafhQoTxRmoGY_Ny4B9dOBMDaN3ykKZGhZg1Ke9wN94HqCgyXGPDK2kJr8gamHpYJncn8TEzl9rsDbXUkLguT3m4_NM7p2MsHgElKEiAXV2JK2UqAGVIAH2bjPtASQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4QIqAem1LECqAeo0huoB7YHqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeGJWMnpNUHppcnOoCAHSCCkIgEEQARheMgKCAjoMgGOAwICAgICAgAIqSNmg0jVQFFjgtvy2n-OQA_IIH2NhLXl0LWhvc3QtcHViLTYyNzMzMDc3MTAyMzc0MDiaCSxodHRwczovL2FpZm9ydGVjaGllcy5pbi9weXRob24tdXNpbmctYWktZ2EyL7EJ0469WpfE9bfICQPICRjICY8ByAmQAZgLAaELtwT2kSpDSzS6Cz0IARABGBYgASgBMBBAAUgBYABoAHACiAEAmAEBogESCgAYACAAWAFgAHABqAIB2AICqAEB2AEBgAIBiAIG0AsS0gwCEAHaDCYKCxDA7ubNt6Lo1r0BEgIBAxoNGNXYkrZSIPzq0YOMBUABSgIQH5oNARKqDQJJTsgNAdINrQFodHRwczovL2FpZm9ydGVjaGllcy5pbi9weXRob24tdXNpbmctYWktZ2EyLz8mdXRtX21lZGl1bT1wbWF4SmFuMTMmdXRtX2NhbXBhaWduPTIyMTE1MjM2MjQyJnV0bV90ZXJtPSZ1dG1fY29udGVudD0mdXRtX2lkPTIyMTE1MjM2MjQyJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjEyNTI1OTg2MbgT____________AbAUAcAVyYCAQNAVAdgVAZAWAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5sb8tp_jkAMVE6NsCR0K4BAHEAEYASAAEgIjBPD_BwE&num=1&cid=CAAS2QHkaP69Ng1Za2nPV6ctTZIAlmGvmvki4J-JsaqCoSO7WK2AEUE6MffzEwWSgrRj1WYazjV-j5J63Vttr6lruM4fNjG251tgspW-BLaVM5A9zPCAUHdKTvAdNfnPKavDJ8n5O5EyvWiQGg52oNXs0uzh-7LwWpaciG-QXUyBTYMccUiWzBDLojyE2gLUk5U9g3T-6Zom61rpWzZkWbshFabak4h0U4VGKRSc_eN8oZ_xkHmvRT1V1fkAldnGqZH8dICilWfqo5gmHblclgRDauuWQ_V9egCNmtEK&ad_cpn=%5BAD_CPN%5D&sig=AOD64_26KZX9Hvoc8VUHjN3Pf_aeZcD_aQ&label=video_click_to_advertiser_site&ctype=110&ms=%5BCLICK_MS%5D
+              - generic [ref=e348]: Visit site
+            - button [pressed] [ref=e355] [cursor=pointer]:
+              - img [ref=e357]:
+                - generic [ref=e359]:
+                  - img
+          - generic [ref=e365]:
+            - generic [ref=e367] [cursor=pointer]:
+              - link [ref=e368]:
+                - /url: /watch?v=hDBifxix71A&pp=0gcJCQMKAYcqIYzv
+                - generic [ref=e374]: 9:32
+              - generic [ref=e376]:
+                - generic [ref=e377]:
+                  - heading "Here's Why 73% QA Will Be REPLACED (REALITY Exposed) 9 minutes, 32 seconds" [level=3] [ref=e378]:
+                    - link "Here's Why 73% QA Will Be REPLACED (REALITY Exposed) 9 minutes, 32 seconds" [ref=e379]:
+                      - /url: /watch?v=hDBifxix71A&pp=0gcJCQMKAYcqIYzv
+                      - text: Here's Why 73% QA Will Be REPLACED (REALITY Exposed)
+                  - generic [ref=e381]:
+                    - generic [ref=e383]:
+                      - text: The Testing Academy
+                      - img [ref=e386]:
+                        - generic [ref=e388]:
+                          - img
+                    - generic [ref=e389]:
+                      - generic [ref=e390]: 3.8K views
+                      - generic [ref=e391]: •
+                      - generic [ref=e392]: 12 days ago
+                - button "More actions" [ref=e395]:
+                  - generic [ref=e399]:
+                    - img
+            - generic [ref=e404] [cursor=pointer]:
+              - link [ref=e405]:
+                - /url: /watch?v=h0DkJql-ZTA
+                - generic [ref=e411]: 1:06:26
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - heading "Future Scope of Software Testing & Automation in the AI Era | Angel One QA Director 1 hour, 6 minutes" [level=3] [ref=e415]:
+                    - link "Future Scope of Software Testing & Automation in the AI Era | Angel One QA Director 1 hour, 6 minutes" [ref=e416]:
+                      - /url: /watch?v=h0DkJql-ZTA
+                      - text: Future Scope of Software Testing & Automation in the AI Era | Angel One QA Director
+                  - generic [ref=e418]:
+                    - generic [ref=e420]: Shoaib Siddiqui
+                    - generic [ref=e421]:
+                      - generic [ref=e422]: 1.4K views
+                      - generic [ref=e423]: •
+                      - generic [ref=e424]: 1 month ago
+                - button "More actions" [ref=e427]:
+                  - generic [ref=e431]:
+                    - img
+            - generic [ref=e436] [cursor=pointer]:
+              - link [ref=e437]:
+                - /url: /watch?v=5AoTuLkJZKo&pp=0gcJCQMKAYcqIYzv
+                - generic [ref=e443]: 44:42
+              - generic [ref=e445]:
+                - generic [ref=e446]:
+                  - heading "Future Scope of Software Testing in 2025 | Will AI Replace Software Testers? | Q/A Automation 44 minutes" [level=3] [ref=e447]:
+                    - link "Future Scope of Software Testing in 2025 | Will AI Replace Software Testers? | Q/A Automation 44 minutes" [ref=e448]:
+                      - /url: /watch?v=5AoTuLkJZKo&pp=0gcJCQMKAYcqIYzv
+                      - text: Future Scope of Software Testing in 2025 | Will AI Replace Software Testers? | Q/A Automation
+                  - generic [ref=e450]:
+                    - generic [ref=e452]:
+                      - text: Technical Suneja
+                      - img [ref=e455]:
+                        - generic [ref=e457]:
+                          - img
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: 363K views
+                      - generic [ref=e460]: •
+                      - generic [ref=e461]: 1 year ago
+                - button "More actions" [ref=e464]:
+                  - generic [ref=e468]:
+                    - img
+            - generic [ref=e473] [cursor=pointer]:
+              - link [ref=e474]:
+                - /url: /watch?v=RYsYwW4lzzs&list=PLhMD-W0CxabVpBcgskh7B6k7c-wh_ijlX
+                - generic [ref=e484]:
+                  - generic [ref=e487]:
+                    - img
+                  - generic [ref=e488]: 27 lessons
+              - generic [ref=e491]:
+                - heading "Automation Testing Complete Tutorial for beginner in Hindi" [level=3] [ref=e492]:
+                  - link "Automation Testing Complete Tutorial for beginner in Hindi" [ref=e493]:
+                    - /url: /watch?v=RYsYwW4lzzs&list=PLhMD-W0CxabVpBcgskh7B6k7c-wh_ijlX
+                - generic [ref=e495]:
+                  - generic [ref=e496]:
+                    - link "Code Factory" [ref=e499]:
+                      - /url: /@codefactory767
+                    - generic [ref=e500]: •
+                    - link "Course" [ref=e503]:
+                      - /url: /@codefactory767
+                  - generic [ref=e505]: Updated 5 days ago
+                  - link "View full course" [ref=e509]:
+                    - /url: /playlist?list=PLhMD-W0CxabVpBcgskh7B6k7c-wh_ijlX
+            - generic [ref=e511] [cursor=pointer]:
+              - link [ref=e512]:
+                - /url: /watch?v=7KyFTHSDlhU
+                - generic [ref=e518]: 46:10
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - 'heading "The Future of QA: Testers vs. AI – Who Wins? 46 minutes" [level=3] [ref=e522]':
+                    - 'link "The Future of QA: Testers vs. AI – Who Wins? 46 minutes" [ref=e523]':
+                      - /url: /watch?v=7KyFTHSDlhU
+                      - text: "The Future of QA: Testers vs. AI – Who Wins?"
+                  - generic [ref=e525]:
+                    - generic [ref=e527]: CYDEO
+                    - generic [ref=e528]:
+                      - generic [ref=e529]: 20K views
+                      - generic [ref=e530]: •
+                      - generic [ref=e531]: 8 months ago
+                - button "More actions" [ref=e534]:
+                  - generic [ref=e538]:
+                    - img
+            - generic [ref=e543] [cursor=pointer]:
+              - link [ref=e544]:
+                - /url: /watch?v=Uk8iDmacN0U&list=PL8VbCbavWfeG_QP9yIylsXOCb8CJunKU_
+                - generic [ref=e554]:
+                  - generic [ref=e557]:
+                    - img
+                  - generic [ref=e558]: 47 videos
+              - generic [ref=e561]:
+                - heading "Automation Testing Tutorial for Beginners | 30 Days of Automation in Testing Challenge." [level=3] [ref=e562]:
+                  - link "Automation Testing Tutorial for Beginners | 30 Days of Automation in Testing Challenge." [ref=e563]:
+                    - /url: /watch?v=Uk8iDmacN0U&list=PL8VbCbavWfeG_QP9yIylsXOCb8CJunKU_
+                - generic [ref=e565]:
+                  - generic [ref=e566]:
+                    - link "The Testing Academy" [ref=e569]:
+                      - /url: /@TheTestingAcademy
+                      - text: The Testing Academy
+                      - img [ref=e572]:
+                        - generic [ref=e574]:
+                          - img
+                    - generic [ref=e575]: •
+                    - link "Playlist" [ref=e578]:
+                      - /url: /@TheTestingAcademy
+                  - link "View full playlist" [ref=e582]:
+                    - /url: /playlist?list=PL8VbCbavWfeG_QP9yIylsXOCb8CJunKU_
+            - generic [ref=e584] [cursor=pointer]:
+              - link [ref=e585]:
+                - /url: /watch?v=Az36V2ycdCU
+                - generic [ref=e591]: 6:50
+              - generic [ref=e593]:
+                - generic [ref=e594]:
+                  - heading "Why Companies Are FIRING Their QA Teams in 2025 6 minutes, 50 seconds" [level=3] [ref=e595]:
+                    - link "Why Companies Are FIRING Their QA Teams in 2025 6 minutes, 50 seconds" [ref=e596]:
+                      - /url: /watch?v=Az36V2ycdCU
+                      - text: Why Companies Are FIRING Their QA Teams in 2025
+                  - generic [ref=e598]:
+                    - generic [ref=e600]:
+                      - text: The Testing Academy
+                      - img [ref=e603]:
+                        - generic [ref=e605]:
+                          - img
+                    - generic [ref=e606]:
+                      - generic [ref=e607]: 38K views
+                      - generic [ref=e608]: •
+                      - generic [ref=e609]: 3 months ago
+                - button "More actions" [ref=e612]:
+                  - generic [ref=e616]:
+                    - img
+            - generic [ref=e621] [cursor=pointer]:
+              - link [ref=e622]:
+                - /url: /watch?v=hjygIpwTNH4
+                - generic [ref=e628]: 35:38
+              - generic [ref=e630]:
+                - generic [ref=e631]:
+                  - heading "Automation Testing Interview Experience | Real-Time QA & SDET Interview Preparation 2025 35 minutes" [level=3] [ref=e632]:
+                    - link "Automation Testing Interview Experience | Real-Time QA & SDET Interview Preparation 2025 35 minutes" [ref=e633]:
+                      - /url: /watch?v=hjygIpwTNH4
+                      - text: Automation Testing Interview Experience | Real-Time QA & SDET Interview Preparation 2025
+                  - generic [ref=e635]:
+                    - generic [ref=e637]: RD Automation Learning
+                    - generic [ref=e638]:
+                      - generic [ref=e639]: 4.9K views
+                      - generic [ref=e640]: •
+                      - generic [ref=e641]: 2 months ago
+                - button "More actions" [ref=e644]:
+                  - generic [ref=e648]:
+                    - img
+            - generic [ref=e653] [cursor=pointer]:
+              - link [ref=e654]:
+                - /url: /watch?v=SrgOFOh74A8
+                - generic [ref=e660]: 10:07
+              - generic [ref=e662]:
+                - generic [ref=e663]:
+                  - heading "Is it TOO LATE to start Cloud Engineering in 2025? (new data) 10 minutes, 7 seconds" [level=3] [ref=e664]:
+                    - link "Is it TOO LATE to start Cloud Engineering in 2025? (new data) 10 minutes, 7 seconds" [ref=e665]:
+                      - /url: /watch?v=SrgOFOh74A8
+                      - text: Is it TOO LATE to start Cloud Engineering in 2025? (new data)
+                  - generic [ref=e667]:
+                    - generic [ref=e669]: Tech With Soleyman
+                    - generic [ref=e670]:
+                      - generic [ref=e671]: 20K views
+                      - generic [ref=e672]: •
+                      - generic [ref=e673]: 2 months ago
+                - button "More actions" [ref=e676]:
+                  - generic [ref=e680]:
+                    - img
+            - generic [ref=e685] [cursor=pointer]:
+              - link [ref=e686]:
+                - /url: /watch?v=oBskn9kXd6Q
+                - generic [ref=e692]: 11:25
+              - generic [ref=e694]:
+                - generic [ref=e695]:
+                  - heading "Stop Writing Test Cases Manually - This AI Method Changes Everything 11 minutes, 25 seconds" [level=3] [ref=e696]:
+                    - link "Stop Writing Test Cases Manually - This AI Method Changes Everything 11 minutes, 25 seconds" [ref=e697]:
+                      - /url: /watch?v=oBskn9kXd6Q
+                      - text: Stop Writing Test Cases Manually - This AI Method Changes Everything
+                  - generic [ref=e699]:
+                    - generic [ref=e701]: TheTestingAcademy Hindi
+                    - generic [ref=e702]:
+                      - generic [ref=e703]: 9.9K views
+                      - generic [ref=e704]: •
+                      - generic [ref=e705]: 2 months ago
+                    - generic [ref=e709]:
+                      - generic [ref=e712]:
+                        - img
+                      - generic [ref=e713]: Auto-dubbed
+                - button "More actions" [ref=e716]:
+                  - generic [ref=e720]:
+                    - img
+            - generic [ref=e725] [cursor=pointer]:
+              - link [ref=e726]:
+                - /url: /watch?v=umejNI-fafg&pp=0gcJCQMKAYcqIYzv
+                - generic [ref=e732]: 11:13
+              - generic [ref=e734]:
+                - generic [ref=e735]:
+                  - heading "I Interviewed 300 People from Different Salary Brackets | What I Found 11 minutes, 13 seconds" [level=3] [ref=e736]:
+                    - link "I Interviewed 300 People from Different Salary Brackets | What I Found 11 minutes, 13 seconds" [ref=e737]:
+                      - /url: /watch?v=umejNI-fafg&pp=0gcJCQMKAYcqIYzv
+                      - text: I Interviewed 300 People from Different Salary Brackets | What I Found
+                  - generic [ref=e739]:
+                    - generic [ref=e741]:
+                      - text: Harkirat Singh
+                      - img [ref=e744]:
+                        - generic [ref=e746]:
+                          - img
+                    - generic [ref=e747]:
+                      - generic [ref=e748]: 264K views
+                      - generic [ref=e749]: •
+                      - generic [ref=e750]: 13 days ago
+                - button "More actions" [ref=e753]:
+                  - generic [ref=e757]:
+                    - img
+            - generic [ref=e762] [cursor=pointer]:
+              - link [ref=e763]:
+                - /url: /watch?v=_Ooe1LpoUZg
+                - generic [ref=e769]: 14:42
+              - generic [ref=e771]:
+                - generic [ref=e772]:
+                  - heading "The UGLY TRUTH About Becoming a Data Scientist in 2025! 14 minutes, 42 seconds" [level=3] [ref=e773]:
+                    - link "The UGLY TRUTH About Becoming a Data Scientist in 2025! 14 minutes, 42 seconds" [ref=e774]:
+                      - /url: /watch?v=_Ooe1LpoUZg
+                      - text: The UGLY TRUTH About Becoming a Data Scientist in 2025!
+                  - generic [ref=e776]:
+                    - generic [ref=e778]: Anwar Haq
+                    - generic [ref=e779]:
+                      - generic [ref=e780]: 31K views
+                      - generic [ref=e781]: •
+                      - generic [ref=e782]: 1 month ago
+                - button "More actions" [ref=e785]:
+                  - generic [ref=e789]:
+                    - img
+            - generic [ref=e794] [cursor=pointer]:
+              - link [ref=e795]:
+                - /url: /watch?v=OJKPrJ0wNvc
+                - generic [ref=e801]: 8:23
+              - generic [ref=e803]:
+                - generic [ref=e804]:
+                  - heading "Is the AI Bubble About to Burst? 8 minutes, 23 seconds" [level=3] [ref=e805]:
+                    - link "Is the AI Bubble About to Burst? 8 minutes, 23 seconds" [ref=e806]:
+                      - /url: /watch?v=OJKPrJ0wNvc
+                      - text: Is the AI Bubble About to Burst?
+                  - generic [ref=e808]:
+                    - generic [ref=e810]:
+                      - text: codebasics
+                      - img [ref=e813]:
+                        - generic [ref=e815]:
+                          - img
+                    - generic [ref=e816]:
+                      - generic [ref=e817]: 147K views
+                      - generic [ref=e818]: •
+                      - generic [ref=e819]: 4 weeks ago
+                - button "More actions" [ref=e822]:
+                  - generic [ref=e826]:
+                    - img
+            - generic [ref=e831] [cursor=pointer]:
+              - link [ref=e832]:
+                - /url: /watch?v=lF3G6C8rbew&pp=0gcJCQMKAYcqIYzv
+                - generic [ref=e838]: 7:19
+              - generic [ref=e840]:
+                - generic [ref=e841]:
+                  - heading "Future of Manual Testers - The Reality No One is Telling You 7 minutes, 19 seconds" [level=3] [ref=e842]:
+                    - link "Future of Manual Testers - The Reality No One is Telling You 7 minutes, 19 seconds" [ref=e843]:
+                      - /url: /watch?v=lF3G6C8rbew&pp=0gcJCQMKAYcqIYzv
+                      - text: Future of Manual Testers - The Reality No One is Telling You
+                  - generic [ref=e845]:
+                    - generic [ref=e847]:
+                      - text: The Testing Academy
+                      - img [ref=e850]:
+                        - generic [ref=e852]:
+                          - img
+                    - generic [ref=e853]:
+                      - generic [ref=e854]: 2.2K views
+                      - generic [ref=e855]: •
+                      - generic [ref=e856]: 1 month ago
+                - button "More actions" [ref=e859]:
+                  - generic [ref=e863]:
+                    - img
+            - generic [ref=e868] [cursor=pointer]:
+              - link [ref=e869]:
+                - /url: /watch?v=N1X9IFq2W2g
+                - generic [ref=e875]: 11:21
+              - generic [ref=e877]:
+                - generic [ref=e878]:
+                  - heading "5 Tech Jobs AI Will Replace by 2026 – And What You Should Do Instead 11 minutes, 21 seconds" [level=3] [ref=e879]:
+                    - link "5 Tech Jobs AI Will Replace by 2026 – And What You Should Do Instead 11 minutes, 21 seconds" [ref=e880]:
+                      - /url: /watch?v=N1X9IFq2W2g
+                      - text: 5 Tech Jobs AI Will Replace by 2026 – And What You Should Do Instead
+                  - generic [ref=e882]:
+                    - generic [ref=e884]: Digital Cloud Training
+                    - generic [ref=e885]:
+                      - generic [ref=e886]: 109K views
+                      - generic [ref=e887]: •
+                      - generic [ref=e888]: 3 months ago
+                - button "More actions" [ref=e891]:
+                  - generic [ref=e895]:
+                    - img
+            - generic [ref=e900] [cursor=pointer]:
+              - link [ref=e901]:
+                - /url: /watch?v=0eMBOjS9tvY
+                - generic [ref=e907]: 6:52
+              - generic [ref=e909]:
+                - generic [ref=e910]:
+                  - heading "NO EXPERIENCE - How to Get a Job in Software Testing and QA, 2025 6 minutes, 52 seconds" [level=3] [ref=e911]:
+                    - link "NO EXPERIENCE - How to Get a Job in Software Testing and QA, 2025 6 minutes, 52 seconds" [ref=e912]:
+                      - /url: /watch?v=0eMBOjS9tvY
+                      - text: NO EXPERIENCE - How to Get a Job in Software Testing and QA, 2025
+                  - generic [ref=e914]:
+                    - generic [ref=e916]: Evgeny Kim
+                    - generic [ref=e917]:
+                      - generic [ref=e918]: 34K views
+                      - generic [ref=e919]: •
+                      - generic [ref=e920]: 1 year ago
+                - button "More actions" [ref=e923]:
+                  - generic [ref=e927]:
+                    - img
+            - generic [ref=e932] [cursor=pointer]:
+              - link [ref=e933]:
+                - /url: /watch?v=bl9-YY3ypAM
+                - generic [ref=e939]: 9:48
+              - generic [ref=e941]:
+                - generic [ref=e942]:
+                  - heading "The Reality After a Layoff | Here's EXACTLY What To Do in the First 30 Days | Indian IT Industry 9 minutes, 48 seconds" [level=3] [ref=e943]:
+                    - link "The Reality After a Layoff | Here's EXACTLY What To Do in the First 30 Days | Indian IT Industry 9 minutes, 48 seconds" [ref=e944]:
+                      - /url: /watch?v=bl9-YY3ypAM
+                      - text: The Reality After a Layoff | Here's EXACTLY What To Do in the First 30 Days | Indian IT Industry
+                  - generic [ref=e946]:
+                    - generic [ref=e948]: Career Talk
+                    - generic [ref=e949]:
+                      - generic [ref=e950]: 56K views
+                      - generic [ref=e951]: •
+                      - generic [ref=e952]: 3 months ago
+                - button "More actions" [ref=e955]:
+                  - generic [ref=e959]:
+                    - img
+            - generic [ref=e964] [cursor=pointer]:
+              - link [ref=e965]:
+                - /url: /watch?v=pUPQ4DDTXGQ
+                - generic [ref=e971]: 20:41
+              - generic [ref=e973]:
+                - generic [ref=e974]:
+                  - heading "Automation Testing Roadmap 2025 20 minutes" [level=3] [ref=e975]:
+                    - link "Automation Testing Roadmap 2025 20 minutes" [ref=e976]:
+                      - /url: /watch?v=pUPQ4DDTXGQ
+                      - text: Automation Testing Roadmap 2025
+                  - generic [ref=e978]:
+                    - generic [ref=e980]: Codemify
+                    - generic [ref=e981]:
+                      - generic [ref=e982]: 7.3K views
+                      - generic [ref=e983]: •
+                      - generic [ref=e984]: 6 months ago
+                - button "More actions" [ref=e987]:
+                  - generic [ref=e991]:
+                    - img
+            - generic [ref=e996] [cursor=pointer]:
+              - link [ref=e997]:
+                - /url: /watch?v=4nr_Dt2u8UA
+                - generic [ref=e1003]: 6:40
+              - generic [ref=e1005]:
+                - generic [ref=e1006]:
+                  - heading "This is Why I Won’t Force My Kids to Join the IT Industry (unless they are really good) 6 minutes, 40 seconds" [level=3] [ref=e1007]:
+                    - link "This is Why I Won’t Force My Kids to Join the IT Industry (unless they are really good) 6 minutes, 40 seconds" [ref=e1008]:
+                      - /url: /watch?v=4nr_Dt2u8UA
+                      - text: This is Why I Won’t Force My Kids to Join the IT Industry (unless they are really good)
+                  - generic [ref=e1010]:
+                    - generic [ref=e1012]: Career Talk
+                    - generic [ref=e1013]:
+                      - generic [ref=e1014]: 123K views
+                      - generic [ref=e1015]: •
+                      - generic [ref=e1016]: 1 month ago
+                - button "More actions" [ref=e1019]:
+                  - generic [ref=e1023]:
+                    - img
+            - generic [ref=e1028] [cursor=pointer]:
+              - link [ref=e1029]:
+                - /url: /watch?v=KtA7Yp2IxoU
+                - generic [ref=e1035]: 6:56
+              - generic [ref=e1037]:
+                - generic [ref=e1038]:
+                  - heading "3 Career Killer Mistakes Every QA Makes Based on My 14 Years Experience 6 minutes, 56 seconds" [level=3] [ref=e1039]:
+                    - link "3 Career Killer Mistakes Every QA Makes Based on My 14 Years Experience 6 minutes, 56 seconds" [ref=e1040]:
+                      - /url: /watch?v=KtA7Yp2IxoU
+                      - text: 3 Career Killer Mistakes Every QA Makes Based on My 14 Years Experience
+                  - generic [ref=e1042]:
+                    - generic [ref=e1044]:
+                      - text: The Testing Academy
+                      - img [ref=e1047]:
+                        - generic [ref=e1049]:
+                          - img
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]: 8.9K views
+                      - generic [ref=e1052]: •
+                      - generic [ref=e1053]: 4 months ago
+                - button "More actions" [ref=e1056]:
+                  - generic [ref=e1060]:
+                    - img
+    - text: · • · · • • • • · • · • · • · • • • • • • • •
+```

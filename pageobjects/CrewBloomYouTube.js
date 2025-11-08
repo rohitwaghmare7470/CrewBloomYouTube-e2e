@@ -1,3 +1,5 @@
+const videoUtils = require('../utils/videoutils');
+
 const fs = require('fs');
 const path = require('path');
 
@@ -47,48 +49,37 @@ class CrewBloomYouTube {
     }
   }
 
-  async getVideoTime() {
-    return await this.page.evaluate(() => {
-      const video = document.querySelector('video');
-      return video ? video.currentTime : 0;
-    });
+async getVideoTitle() {
+    const titleElement = await this.videoTitle.first();
+    return await titleElement.textContent();
   }
+
+  
 
  async playPauseAndSmartSkip() {
   await this.handleAdIfPresent();
 
-  await this.page.keyboard.press('k'); // toggle play/pause
+  await videoUtils.togglePlayPause(this.page);
+  await videoUtils.waitForVideoToStart(this.page);
 
-  // Wait until video starts playing
-  await this.page.waitForFunction(() => {
-    const video = document.querySelector('video');
-    return video && video.currentTime > 0;
-  }, { timeout: 10000 });
-
-  const currentTime = await this.getVideoTime();
+  const currentTime = await videoUtils.getVideoTime(this.page);
 
   if (currentTime < 10) {
     console.log(`Current time is ${currentTime}s — skipping forward`);
-    await this.page.keyboard.press('ArrowRight');
-    await this.page.waitForTimeout(2000);
+    await videoUtils.skipForward(this.page, 10);
   } else {
     console.log(`Current time is ${currentTime}s — no skip needed`);
   }
 }
 
 
-
-
-  async getVideoTitle() {
-    const titleElement = await this.videoTitle.first();
-    return await titleElement.textContent();
-  }
-
-  async takeScreenshot(filename = 'video_playing.png') {
+async takeScreenshot(filename = 'video_playing.png') {
     const screenshotPath = path.join(__dirname, '..', 'screenshots', filename);
     await this.page.screenshot({ path: screenshotPath });
     return fs.existsSync(screenshotPath);
   }
+
+  
 }
 
 module.exports = CrewBloomYouTube;
